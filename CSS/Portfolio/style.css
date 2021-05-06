@@ -1,0 +1,154 @@
+*{
+    margin:0px;
+	padding:0px;
+	/*outline: 2px dotted red;*/
+}
+
+
+.wrapper{
+	width:1030px;
+	background-color:#E5E4E2;
+	padding:10px;
+	margin:auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+
+}
+h2{
+	margin-bottom:5px;
+	padding-bottom: -5px;
+
+}
+.main{
+	background-image:radial-gradient(purple, grey, purple);
+	height:auto;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+
+.top img {
+	height:290px;
+	width:42%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border: 5px solid #E5E4E2;
+
+	
+}
+
+
+
+.about{
+	height:300px;
+	width:50%;
+	background-color:#F5F5F5;
+	word-wrap: break-word;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+
+}
+h3{
+	background-image:repeating-linear-gradient(#A0A0A0, #BEBEBE, #B0B0B0);
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left:10px;
+	color:white;
+	padding-top:5px;
+
+}
+h3 a{
+	text-decoration: none;
+	color:white;
+	margin:15px 5px 10px 5px;
+	padding-top:10px 5px 10px 5px;
+}
+.about p{
+	margin:5px;
+	font-size:19px;
+	padding:5px;
+
+}
+.about a{
+	font-size: 20px;
+	margin:5px;
+	padding: 5px;
+	
+}
+.bottom{
+	display: flex;
+	justify-content: space-around;
+}
+.section{
+	height:610px;
+	width:300px;
+	background-color:#F5F5F5;
+	
+	
+	
+
+}
+h4{
+	background-color: #A9A9A9;
+	height: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left:5px;
+	color:white;
+}
+.section p{
+	margin-left:5px;
+	margin-bottom:30px;
+	height:150px;
+}
+.picture img{
+	height:150px;
+	width:290px;
+	margin:5px;
+}
+.symbol {
+	margin-top:10px;
+	margin-bottom: 30px;
+}
+
+.symbol img{
+	width:50px;
+	height:50px;
+}
+.section a{
+	background-color: #20B2AA;
+	width:40px;
+	height:30px;
+	padding:10px;
+	margin-left:85px;
+	text-decoration: none;
+	text-align:center;
+	border-radius: 10px;
+
+}
+.footer p{
+    text-align: center;
+
+
+}
+.social{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.footer img{
+	width:20px;
+	height:20px;
+}
+ul li{
+	margin:5px;
+}

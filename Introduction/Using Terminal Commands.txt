@@ -1,0 +1,51 @@
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~
+$ cd desktop
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop
+$ mkdir test
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop
+$ cd test
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ touch index.html
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ touch style.css
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ touch commands.txt
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ cp index.html index_2.html
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ cd..
+bash: cd..: command not found
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ cd ..
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop
+$ mkdir destination
+
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop
+$ cd test
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ mv index_2.html ../destination
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ rm style.css
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop/test
+$ cd ..
+
+Dara@DESKTOP-PEADUN5 MINGW64 ~/desktop
+$ rm -rf destination

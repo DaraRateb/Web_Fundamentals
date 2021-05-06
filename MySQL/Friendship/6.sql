@@ -1,0 +1,1 @@
+DELETE FROM friendships WHERE friendships.id=5;

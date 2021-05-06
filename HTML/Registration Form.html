@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="EN">
+	<head>
+		<meta charset="utf-8">
+    	<title>Registration Form</title>
+	</head>
+	<body>
+		<p> My Registration Form </p>
+		<!-- text input first and last names and email -->
+		<label for="first_name">First Name</label>
+		<input type="text" id="first_name" name="first name"><br>
+		<label for="last_name">Last Name</label>
+		<input type="text" id="last_name" name="last name"><br>
+		<label for="email">Email</label>
+		<input type="text" id="email" name="email"><br>
+		<!--password input -->
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password"><br>
+		<label for="passwordCO">Confirm Password</label>
+		<input type="password" id="passwordCO" name="passwordCO"><br>
+		<label for="birthday">Enter your Birthday</label>
+		<input type="date" id="birthday" name="birthday"><br>
+		<!-- Radio Gender -->
+		<p>please select your gender</p>
+		<label for="male">Male</label>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="decline">Prefer not to say</label>
+		<input type="radio" id="decline" name="gender" value="decline"><br>
+		<!--text area-->
+		<p> A short description about yourself </p>
+		<textarea name="description"></textarea><br>
+		<!--select input-->
+		<p>Please select your Favorite Language</p>
+		<select name="Language">
+    		<option value="JavaScript">JavaScript</option>
+    		<option value="Java">Java</option>
+    		<option value="Python">Python</option>
+    		<option value="Mern">Mern</option>
+    		<option value="other">Other</option>
+		</select><br>
+		<!--submit-->
+		<input type="submit" value="submit">
+	</body>
+</html>
